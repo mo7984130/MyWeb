@@ -1,0 +1,1 @@
+create table if not exists MD5OfFiles(id int auto_increment, md5 varchar(255) null,name varchar(255) not null,realPath varchar(255) not null,webPath  varchar(255) null,constraint MD5OfFiles_MD5_uindex unique (MD5), constraint MD5OfFiles_id_uindex unique (id));

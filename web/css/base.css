@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+}
+
+#sideBorder{
+    font-size: 3em;
+    padding-top: 250px;
+    color:red;
+}
+
+.text-lg{
+    font-size: 3em;
+    color: darkred;
+}
+
+.text-lg-noColor{
+    font-size: 3em;
+}
+
+a:link{text-decoration:none;color:lightgreen}
+a:hover{text-decoration: none;color: pink}
+a:active{text-decoration: none;color: yellow}

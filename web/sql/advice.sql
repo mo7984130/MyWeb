@@ -1,0 +1,1 @@
+create table if not exists advice(id int auto_increment,name varchar(255) not null,advice varchar(10000) not null,time varchar(255) not null, constraint advice_id_uindex unique (id));

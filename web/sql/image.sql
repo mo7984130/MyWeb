@@ -1,0 +1,1 @@
+create table if not exists image(id         int auto_increment,fileName   varchar(255) not null,realPath   varchar(255) not null,webPath    varchar(255) not null,md5        varchar(255) not null,uploadTime varchar(255) not null,uploadUser varchar(255) not null,label      varchar(255) not null,constraint image_id_uindex unique (id), constraint image_md5_uindex unique (md5));
